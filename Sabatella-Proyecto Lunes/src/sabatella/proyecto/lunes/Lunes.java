@@ -11,12 +11,19 @@ package sabatella.proyecto.lunes;
  */
 public class Lunes {
 
-    /**
-     * @param args the command line arguments
-     */
+    public static VentanaLogin ventanaLogin = null;
+
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Hola Mundo");
+        System.out.println("Hola Argentina");
+
+        ventanaLogin = new VentanaLogin();
+        iniciar();
     }
-    
+
+    public static void iniciar() {
+        ventanaLogin.setVisible(true);
+    }
+
 }
