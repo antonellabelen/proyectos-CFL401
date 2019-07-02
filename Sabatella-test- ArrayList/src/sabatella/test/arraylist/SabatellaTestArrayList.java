@@ -5,17 +5,54 @@
  */
 package sabatella.test.arraylist;
 
-/**
- *
- * @author Alumno
- */
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class SabatellaTestArrayList {
 
-    /**
-     * @param args the command line arguments
-     */
+   
+
+ 
     public static void main(String[] args) {
-        System.out.println("Hola");
-    }
+       System.out.println("Hola");
+       Scanner teclado=new Scanner(System.in);
+       ArrayList elem= new ArrayList();
+       ArrayList <Integer> elem2=new ArrayList();
+      int dato=teclado.nextInt();
+       elem.add("perro");
+       elem.add(4);
+       elem.add("edad");
+       System.out.println(elem);
+      /*while(dato>=0) {
+          elem2.add(dato);
+          dato=teclado.nextInt();
+       }
+       System.out.println(elem2);*/
+      /* try {
+           dato=teclado.nextInt();
+           System.out.println(dato);
+       } catch(Exception e) {
+           System.out.println(e.toString());*/
+       
+        ArrayList mascotas=new ArrayList();
+        mascotas.add("pichulo");
+        mascotas.add(4);
+        mascotas.add(17);
+        
+           
+       }
+      
+ 
+       }
+       
     
-}
+       
+    }
+
+           
+       
+       
+                                                                                                    
+    
+   
+
